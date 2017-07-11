@@ -1,5 +1,5 @@
 <template>
-  <section id="todoapp">
+  <section class="todoapp">
     <header class="header">
       <h1>Tarefas</h1>
     </header>

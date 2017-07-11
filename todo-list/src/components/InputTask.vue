@@ -4,7 +4,6 @@
            @keyup.enter="addTask"
            v-model="mensagem"
            placeholder="O que precisa ser feito?">
-    <p>A mensagem é: {{ mensagem }}</p>
   </div>
 </template>
 
