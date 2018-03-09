@@ -17,8 +17,8 @@ vue list
 
 
 ## Como funciona a lista de pastas do vue: 
-![alt text](./lista_pastas1.png "Pastas 1")
-![alt text](./lista_pastas2.png "Pastas 2")
+![alt text](./assets/lista_pastas1.png "Pastas 1")
+![alt text](./assets/lista_pastas2.png "Pastas 2")
 
 
 
