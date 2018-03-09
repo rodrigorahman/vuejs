@@ -16,6 +16,11 @@ vue list
 6. webpack-simple - A simple Webpack + vue-loader setup for quick prototyping.
 
 
+## Como funciona a lista de pastas do vue: 
+![alt text](./lista_pastas1.png "Pastas 1")
+![alt text](./lista_pastas2.png "Pastas 2")
+
+
 
 # todo-list
 
