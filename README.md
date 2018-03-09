@@ -42,6 +42,20 @@ npm run build
 npm run build --report
 ```
 
+# Atalhos para diretivas:
+
+**v-bind** = **:**
+
+Ex:
+
+```html
+<!-- Bind Padrão  -->
+<h1 v-bind:title="msg">{{ msg }}</h1>
+
+<!-- Atalho para Bind  -->
+<h1 :title="msg">{{ msg }}</h1>
+```
+
 # Adicionando funcao a diretiva #
 
 Exemplo:
