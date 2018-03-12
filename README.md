@@ -116,6 +116,18 @@ Temos também o .self que faz com que o evento seja disparado somente ao clicar 
 ```
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+# Diretivas:
+1. v-model (utilizada para popular os valores de um form direto em um modelo de objetos)
+
+```html
+<input v-model="mensagem"> 
+<p>A mensagem é: {{ mensagem }}</p>
+```
+## Algumas especializações da diretiva v-model: 
+* **.lazy** , que faz com que a sincronização entre atributo e input ocorra no evento change . Por padrão, ele ocorre no evento input . 
+* **.number** , este modificador faz a conversão de String para Number em JavaScript.
+* **.trim** , que remove os espaços em branco do input .
+
 # Diferença de v-if e v-show #
 
 Ambas tem a mesma função mostrar ou não um elemento, porem o v-if não mostra o elemento no html já o v-show o elemento irá aparecer no html porem com o style: display:none.
